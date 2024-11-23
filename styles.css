@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(194, 255, 199);
+}
+
+.box{
+    background-color: rgb(158, 223, 156);
+    border-radius: 50px; 
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 700px;
+    text-align: center;
+}
+
+.box2 img{
+    border-radius: 30px;
+    width: 100px;
+}
+
+
+.box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box2 a{
+    background-color: rgb(238, 230, 230);
+    padding: 20px 60px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(78, 78, 235);
+}
+
+.box2 a:hover {
+    color: rgb(102, 202, 102);
+    font-size: 20px;
+}
+
+.title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    background-image: url(https://ecosistemas.ovacen.com/wp-content/uploads/2018/01/bosque.jpg);
+    border-radius: 30px;
+    color: antiquewhite;
+    background-size: 100px 100px;
+}
+
+
+.box3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    height: 20rem;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#firstblock{
+    background-color:rgb(194, 255, 199);
+    border-radius: 30px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+#secondblock{
+    background-color: rgb(188, 224, 224);
+    border-radius: 30px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.box3 a:hover{
+    font-size: 20px;
+    background: linear-gradient(to top, #6fc2e9,  #13365e57);
+    filter: brightness(1.2);
+}
+
+.box3 img{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.end{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.end #bottom{
+    background-color: rgb(82, 110, 72);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(78, 78, 235);
+}
+
+.end a{
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.end img:hover{
+    width: 60px;
+    height: 60px;
+    transform: scale(1.2); 
+}
+
+.end img{
+    width: 50px;
+    height: 50px;
+}
+
+p {
+    font-size: 40px;
+    background-color: rgb(251, 251, 251);
+    border-radius: 30px;
+}
